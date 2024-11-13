@@ -1,5 +1,14 @@
 # vue-toeat
 
+Originally from [Build with Ben: Vue 3 and TypeScript Working
+Session](https://www.youtube.com/watch?v=p1eO5dZnp_Q).
+
+Key takeaways:
+
+- Why does `newRestaurant: Ref<Restaurant>` does not complain about non-existing
+  `address`, but `const newRestaurant = ref<Restaurant>` does?
+- Using TypeScript `enum` to populate `<select></select>`
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
